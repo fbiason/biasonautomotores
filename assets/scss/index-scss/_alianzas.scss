@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+# Alianzas
+--------------------------------------------------------------*/
+.alianzas {
+  width: 50%;
+  height: 50%;
+  animation: alianzas 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes alianzas {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes alianzas {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

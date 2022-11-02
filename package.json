@@ -1,0 +1,21 @@
+{
+  "name": "biason-automotores-bs",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/scss/style.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbiason/biason-automotores-bs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbiason/biason-automotores-bs/issues"
+  },
+  "homepage": "https://github.com/fbiason/biason-automotores-bs#readme"
+}

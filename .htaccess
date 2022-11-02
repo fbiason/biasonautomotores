@@ -1,0 +1,65 @@
+# BEGIN WordPress
+
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+
+# dynamically generated, and should only be modified via WordPress filters.
+
+# Any changes to the directives between these markers will be overwritten.
+
+# Url Amigable
+
+RewriteEngine On
+RewriteRule ^home/?$ index.html
+RewriteRule ^vehiculos/?$ html/vehiculos.html
+RewriteRule ^nosotros/?$ html/nosotros.html
+RewriteRule ^contacto/?$ html/contacto.html
+RewriteRule ^aviso-legal/?$ html/aviso-legal.html
+RewriteRule ^politica-privacidad/?$ html/politica-privacidad.html
+
+# Url Amigable Catálogo
+RewriteRule ^baic-x35/?$ html/catalogo/baic-x35.html
+RewriteRule ^corsa2/?$ html/catalogo/chevrolet-corsaii.html
+RewriteRule ^prisma/?$ html/catalogo/chevrolet-prisma.html
+RewriteRule ^onix/?$ html/catalogo/chevrolet-onix.html
+RewriteRule ^punto-essence/?$ html/catalogo/fiat-punto-essence.html
+RewriteRule ^ecosport-freestyle/?$ html/catalogo/ford-ecosport-freestyle.html
+RewriteRule ^ford-focus/?$ html/catalogo/ford-focus.html
+RewriteRule ^kuga/?$ html/catalogo/ford-kuga.html
+RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
+RewriteRule ^nissan-march-advance/?$ html/catalogo/nissan-march-advance.html
+RewriteRule ^duster-privilege/?$ html/catalogo/renault-duster-privilege.html
+RewriteRule ^captur-intens/?$ /html/catalogo/renault-captur-intens.html
+RewriteRule ^sandero-zen/?$ html/catalogo/renault-sandero-zen.html
+RewriteRule ^sanderoii-2022/?$ html/catalogo/renault-sanderoii-life-2022.html
+RewriteRule ^logan2/?$ html/catalogo/renault-loganii-life.html
+RewriteRule ^suzuki-vitara/?$ html/catalogo/suzuki-vitara.html
+RewriteRule ^hilux/?$ html/catalogo/toyota-hilux.html
+RewriteRule ^suran/?$ /html/catalogo/volkswagen-suran.html
+RewriteRule ^voyage/?$ html/catalogo/volkswagen-voyage.html
+
+# END Url Amigable
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteRule ^vehiculos/?$ html/vehiculos.html [L]
+RewriteRule ^contacto/?$ html/contacto.html [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule (.*) http://www.biasonautomotores.com/$1/ [R=301,L,QSA]
+</IfModule>
+
+# END WordPress
+
+Redirect 301 /biason-automotores-bs/index.html https://biasonautomotores.com
+RewriteCond %{HTTP_HOST} ^biasonautomotores\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.biasonautomotores\.com$
+RewriteRule ^biason\-automotores\-bs\/index\.html$ "http\:\/\/biasonautomotores\.com\/" [R=301,L]

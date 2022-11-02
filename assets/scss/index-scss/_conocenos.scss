@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+# Conocenos (index)
+--------------------------------------------------------------*/
+.cta-conocenos {
+  background: linear-gradient(rgba(100, 104, 112, 0.9), rgba(90, 40, 40, 0.9)),
+    url("../img/conocenos.jpeg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.cta-conocenos h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cta-conocenos p {
+  color: #fff;
+}
+
+.cta-conocenos .cta-btn {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.cta-conocenos .cta-btn:hover {
+  color: black;
+  background: #fff9f9;
+  border: 2px solid #0c0404;
+}
+
+@media (max-width: 1024px) {
+  .cta-conocenos {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta-conocenos .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
