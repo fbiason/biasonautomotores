@@ -54,12 +54,12 @@ RewriteRule ^contacto/?$ html/contacto.html [L]
 <IfModule mod_rewrite.c>
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule (.*) http://www.biasonautomotores.com/$1/ [R=301,L,QSA]
+RewriteRule (.*) http://www.biasonautomotores.com.ar/$1/ [R=301,L,QSA]
 </IfModule>
 
 # END WordPress
 
-Redirect 301 /biason-automotores-bs/index.html https://biasonautomotores.com
-RewriteCond %{HTTP_HOST} ^biasonautomotores\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.biasonautomotores\.com$
-RewriteRule ^biason\-automotores\-bs\/index\.html$ "http\:\/\/biasonautomotores\.com\/" [R=301,L]
+Redirect 301 /biason-automotores-bs/index.html https://biasonautomotores.ar
+RewriteCond %{HTTP_HOST} ^biasonautomotores\.com.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.biasonautomotores\.com.ar$
+RewriteRule ^biason\-automotores\-bs\/index\.html$ "http\:\/\/biasonautomotores\.com\.ar/" [R=301,L]
