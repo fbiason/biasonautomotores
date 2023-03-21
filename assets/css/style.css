@@ -658,6 +658,10 @@ section {
   transform: scale(1.1);
 }
 
+.cliens .container .row {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .cliens img {
     max-width: 40%;
@@ -1304,6 +1308,10 @@ section {
   text-align: justify;
 }
 
+.modal-content {
+  width: 150%;
+}
+
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
@@ -1312,15 +1320,27 @@ section {
   #footer .footer-top .footer-links ul li {
     margin-left: 0rem;
   }
+  .modal-content {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) {
   .footer-links {
     text-align: center;
   }
+  .modal-content {
+    width: 100%;
+  }
 }
 @media (min-width: 1366px) {
   .footer-links {
     text-align: center;
+  }
+  .modal-dialog {
+    align-items: center;
+  }
+  .modal-content {
+    width: 150%;
   }
 }
 
