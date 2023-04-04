@@ -14,26 +14,16 @@ RewriteRule ^vehiculos/?$ html/vehiculos.html
 RewriteRule ^nosotros/?$ html/nosotros.html
 RewriteRule ^contacto/?$ html/contacto.html
 RewriteRule ^aviso-legal/?$ html/aviso-legal.html
-RewriteRule ^politica-privacidad/?$ html/politica-privacidad.html
 
 # Url Amigable Catálogo
-RewriteRule ^baic-x35/?$ html/catalogo/baic-x35.html
-RewriteRule ^corsa2/?$ html/catalogo/chevrolet-corsaii.html
-RewriteRule ^prisma/?$ html/catalogo/chevrolet-prisma.html
-RewriteRule ^onix/?$ html/catalogo/chevrolet-onix.html
-RewriteRule ^punto-essence/?$ html/catalogo/fiat-punto-essence.html
+RewriteRule ^aveo3g/?$ html/catalogo/chevrolet-aveo3g.html
+RewriteRule ^berlingo/?$ html/catalogo/citroen-berlingo.html
 RewriteRule ^ecosport-freestyle/?$ html/catalogo/ford-ecosport-freestyle.html
-RewriteRule ^ford-focus/?$ html/catalogo/ford-focus.html
-RewriteRule ^kuga/?$ html/catalogo/ford-kuga.html
+RewriteRule ^ford-fiesta/?$ html/catalogo/ford-fiesta.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
-RewriteRule ^nissan-march-advance/?$ html/catalogo/nissan-march-advance.html
-RewriteRule ^duster-privilege/?$ html/catalogo/renault-duster-privilege.html
-RewriteRule ^captur-intens/?$ /html/catalogo/renault-captur-intens.html
-RewriteRule ^sandero-zen/?$ html/catalogo/renault-sandero-zen.html
-RewriteRule ^sanderoii-2022/?$ html/catalogo/renault-sanderoii-life-2022.html
-RewriteRule ^logan2/?$ html/catalogo/renault-loganii-life.html
-RewriteRule ^suzuki-vitara/?$ html/catalogo/suzuki-vitara.html
+RewriteRule ^nissan-march-active/?$ html/catalogo/nissan-march-active.html
 RewriteRule ^hilux/?$ html/catalogo/toyota-hilux.html
+RewriteRule ^etios/?$ html/catalogo/toyota-etios.html
 RewriteRule ^suran/?$ /html/catalogo/volkswagen-suran.html
 RewriteRule ^voyage/?$ html/catalogo/volkswagen-voyage.html
 
