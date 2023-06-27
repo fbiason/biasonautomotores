@@ -27,9 +27,8 @@ RewriteRule ^ford-fiesta/?$ html/catalogo/ford-fiesta.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
 RewriteRule ^nissan-frontier/?$ html/catalogo/nissan-frontier.html
 RewriteRule ^nissan-march-active/?$ html/catalogo/nissan-march-active.html
+RewriteRule ^207/?$ html/catalogo/peugeot-207.html
 RewriteRule ^etios/?$ html/catalogo/toyota-etios.html
-RewriteRule ^corolla2016/?$ html/catalogo/toyota-corolla-2016.html
-RewriteRule ^corolla2020/?$ html/catalogo/toyota-corolla-2020.html
 RewriteRule ^polo/?$ /html/catalogo/volkswagen-polo.html
 RewriteRule ^fox/?$ html/catalogo/volkswagen-fox.html
 
