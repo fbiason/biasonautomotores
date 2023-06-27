@@ -17,7 +17,9 @@ RewriteRule ^aviso-legal/?$ html/aviso-legal.html
 
 # Url Amigable Catálogo
 RewriteRule ^aveog3/?$ html/catalogo/chevrolet-aveog3.html
+RewriteRule ^prisma/?$ html/catalogo/chevrolet-prisma-joy.html
 RewriteRule ^berlingo/?$ html/catalogo/citroen-berlingo.html
+RewriteRule ^palio-adventure/?$ html/catalogo/fiat-palio-adventure.html
 RewriteRule ^ecosport-freestyle/?$ html/catalogo/ford-ecosport-freestyle.html
 RewriteRule ^ford-fiesta/?$ html/catalogo/ford-fiesta.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
