@@ -22,6 +22,7 @@ RewriteRule ^berlingo/?$ html/catalogo/citroen-berlingo.html
 RewriteRule ^mobi/?$ html/catalogo/fiat-mobi.html
 RewriteRule ^palio-adventure/?$ html/catalogo/fiat-palio-adventure.html
 RewriteRule ^ecosport-freestyle/?$ html/catalogo/ford-ecosport-freestyle.html
+RewriteRule ^ford-ka/?$ html/catalogo/ford-ka.html
 RewriteRule ^ford-fiesta/?$ html/catalogo/ford-fiesta.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
 RewriteRule ^myway-2019/?$ html/catalogo/lifan-myway2019.html
