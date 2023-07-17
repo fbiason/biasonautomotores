@@ -24,6 +24,7 @@ RewriteRule ^palio-adventure/?$ html/catalogo/fiat-palio-adventure.html
 RewriteRule ^ecosport-freestyle/?$ html/catalogo/ford-ecosport-freestyle.html
 RewriteRule ^ford-ka/?$ html/catalogo/ford-ka.html
 RewriteRule ^ford-fiesta/?$ html/catalogo/ford-fiesta.html
+RewriteRule ^ford-focus/?$ html/catalogo/focus.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
 RewriteRule ^nissan-frontier/?$ html/catalogo/nissan-frontier.html
 RewriteRule ^nissan-march-active/?$ html/catalogo/nissan-march-active.html
