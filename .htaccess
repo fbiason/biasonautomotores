@@ -16,7 +16,7 @@ RewriteRule ^contacto/?$ html/contacto.html
 RewriteRule ^aviso-legal/?$ html/aviso-legal.html
 
 # Url Amigable Catálogo
-RewriteRule ^aveog3/?$ html/catalogo/chevrolet-aveog3.html
+RewriteRule ^tracker/?$ html/catalogo/chevrolet-tracker.html
 RewriteRule ^prisma/?$ html/catalogo/chevrolet-prisma-joy.html
 RewriteRule ^berlingo/?$ html/catalogo/citroen-berlingo.html
 RewriteRule ^mobi/?$ html/catalogo/fiat-mobi.html
