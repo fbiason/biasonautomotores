@@ -31,6 +31,7 @@ RewriteRule ^nissan-march-active/?$ html/catalogo/nissan-march-active.html
 RewriteRule ^207/?$ html/catalogo/peugeot-207.html
 RewriteRule ^sandero/?$ html/catalogo/renault-sandero.html
 RewriteRule ^etios/?$ html/catalogo/toyota-etios.html
+RewriteRule ^corolla/?$ html/catalogo/toyota-corolla.html
 RewriteRule ^polo/?$ /html/catalogo/volkswagen-polo.html
 RewriteRule ^fox/?$ html/catalogo/volkswagen-fox.html
 
