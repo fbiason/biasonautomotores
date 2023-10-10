@@ -17,21 +17,18 @@ RewriteRule ^aviso-legal/?$ html/aviso-legal.html
 
 # Url Amigable Catálogo
 RewriteRule ^tracker/?$ html/catalogo/chevrolet-tracker.html
-RewriteRule ^prisma/?$ html/catalogo/chevrolet-prisma-joy.html
-RewriteRule ^berlingo/?$ html/catalogo/citroen-berlingo.html
 RewriteRule ^mobi/?$ html/catalogo/fiat-mobi.html
-RewriteRule ^palio-adventure/?$ html/catalogo/fiat-palio-adventure.html
-RewriteRule ^ecosport-freestyle/?$ html/catalogo/ford-ecosport-freestyle.html
-RewriteRule ^ford-ka/?$ html/catalogo/ford-ka.html
+RewriteRule ^mobi-easy/?$ html/catalogo/fiat-mobi-easy.html
+RewriteRule ^ford-titanium/?$ html/catalogo/ford-titanium.html
 RewriteRule ^ford-fiesta/?$ html/catalogo/ford-fiesta.html
 RewriteRule ^ford-focus/?$ html/catalogo/ford-focus.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
 RewriteRule ^nissan-frontier/?$ html/catalogo/nissan-frontier.html
 RewriteRule ^nissan-march-active/?$ html/catalogo/nissan-march-active.html
-RewriteRule ^207/?$ html/catalogo/peugeot-207.html
 RewriteRule ^sandero/?$ html/catalogo/renault-sandero.html
-RewriteRule ^etios/?$ html/catalogo/toyota-etios.html
-RewriteRule ^polo/?$ /html/catalogo/volkswagen-polo.html
+RewriteRule ^kwid/?$ html/catalogo/renault-kwid.html
+RewriteRule ^corolla/?$ html/catalogo/toyota-corolla-2022.html
+RewriteRule ^yaris/?$ html/catalogo/toyota-yaris.html
 RewriteRule ^fox/?$ html/catalogo/volkswagen-fox.html
 
 # END Url Amigable
