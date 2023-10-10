@@ -27,7 +27,7 @@ RewriteRule ^nissan-frontier/?$ html/catalogo/nissan-frontier.html
 RewriteRule ^nissan-march-active/?$ html/catalogo/nissan-march-active.html
 RewriteRule ^sandero/?$ html/catalogo/renault-sandero.html
 RewriteRule ^kwid/?$ html/catalogo/renault-kwid.html
-RewriteRule ^corolla2022/?$ html/catalogo/toyota-corolla-2022.html
+RewriteRule ^toyota-corolla-2022/?$ html/catalogo/toyota-corolla-2022.html
 RewriteRule ^yaris/?$ html/catalogo/toyota-yaris.html
 RewriteRule ^fox/?$ html/catalogo/volkswagen-fox.html
 
