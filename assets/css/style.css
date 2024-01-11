@@ -1345,7 +1345,13 @@ section {
 }
 
 /*# sourceMappingURL=style.css.map */
-.carousel-control-prev-icon, .carousel-control-next-icon {
+
+#carouselExampleInterval .carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.815);
+  border-radius: 1rem;
+}
+
+.carousel-control-prev-icon-marcas, .carousel-control-next-icon-marcas {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 1rem;
 }
@@ -1353,3 +1359,4 @@ section {
 .carousel-inner {
   transition: transform 1s ease-in-out; 
 }
+
