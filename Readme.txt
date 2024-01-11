@@ -2,11 +2,9 @@
 
 Desarrollado por Biason Franco 2024 ✅
 
-- Responsive
-- Controlar enlaces
 
 ==========================================
-Actualizado al 10/01/2024 -
+Actualizado al 11/01/2024 -
 
 *Actualizado catálogo de vehículos Enero 2024
 

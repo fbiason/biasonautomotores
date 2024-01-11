@@ -1345,3 +1345,11 @@ section {
 }
 
 /*# sourceMappingURL=style.css.map */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+}
+
+.carousel-inner {
+  transition: transform 1s ease-in-out; 
+}
