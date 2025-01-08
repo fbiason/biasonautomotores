@@ -16,12 +16,14 @@ RewriteRule ^contacto/?$ html/contacto.html
 RewriteRule ^aviso-legal/?$ html/aviso-legal.html
 
 # Url Amigable Catálogo
-RewriteRule ^cruze/?$ html/catalogo/chevrolet-cruze.html
-RewriteRule ^cruze4p/?$ html/catalogo/chevrolet-cruze-4p.html
-RewriteRule ^citroen-c4/?$ html/catalogo/citroen-c4.html
+RewriteRule ^prisma/?$ html/stock/chevrolet-prisma.html
+RewriteRule ^sonic/?$ html/stock/chevrolet-sonic.html
+RewriteRule ^cruze4p/?$ html/stock/chevrolet-cruze-4p.html
+RewriteRule ^cronos/?$ html/stock/fiat-cronos.html
+RewriteRule ^ford-ecosport/?$ html/stock/ford-ecosport.html
+
 RewriteRule ^ford-focus/?$ html/catalogo/ford-focus.html
 RewriteRule ^ford-focus-16/?$ html/catalogo/ford-focus-16.html
-RewriteRule ^ford-ecosport/?$ html/catalogo/ford-ecosport.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
 RewriteRule ^nissan-frontier/?$ html/catalogo/nissan-frontier.html
 RewriteRule ^kwid/?$ html/catalogo/renault-kwid.html
