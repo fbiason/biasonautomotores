@@ -20,9 +20,10 @@ RewriteRule ^prisma/?$ html/stock/chevrolet-prisma.html
 RewriteRule ^sonic/?$ html/stock/chevrolet-sonic.html
 RewriteRule ^cruze4p/?$ html/stock/chevrolet-cruze-4p.html
 RewriteRule ^cronos/?$ html/stock/fiat-cronos.html
+RewriteRule ^weekend/?$ html/stock/fiat-weekend.html
 RewriteRule ^ford-ecosport/?$ html/stock/ford-ecosport.html
+RewriteRule ^ford-focus/?$ html/catalogo/ford-focus-se.html
 
-RewriteRule ^ford-focus/?$ html/catalogo/ford-focus.html
 RewriteRule ^ford-focus-16/?$ html/catalogo/ford-focus-16.html
 RewriteRule ^kia-sportage/?$ html/catalogo/kia-sportage.html
 RewriteRule ^nissan-frontier/?$ html/catalogo/nissan-frontier.html
