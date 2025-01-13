@@ -1,6 +1,14 @@
+/**
+ * Template Name: Arsha - v4.3.0
+ * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
 (function () {
   "use strict";
 
+
+  
   /**
    * Easy selector helper function
    */
@@ -252,7 +260,7 @@
       clickable: true,
     },
   });
-
+  
   /**
    * Animation on scroll
    */
@@ -264,30 +272,4 @@
       mirror: false,
     });
   });
-
-  /**
-   * Moved inline script logic from chevrolet-prisma.html to main.js
-   */
-  document.addEventListener("DOMContentLoaded", function () {
-    // Example: Add event listeners for buttons if needed
-    const buttons = document.querySelectorAll(".btn");
-    buttons.forEach((button) => {
-      button.addEventListener("click", function () {
-        console.log("Button clicked:", this);
-        // Add more logic here if needed
-      });
-    });
-
-    // Add any other inline script logic here
-  });
-
-  // Ensure Bootstrap JS is included
-  import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-  // Initialize the carousel
-  const vehicleCarousel = document.querySelector('#vehicleCarousel');
-  if (vehicleCarousel) {
-    const carousel = new bootstrap.Carousel(vehicleCarousel);
-  }
-
 })();
